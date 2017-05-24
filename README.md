@@ -15,6 +15,11 @@ Using the scraper
 
 3. Navigate to the project in your favourite terminal application and enter `sbt run`
 
+Dependencies
+---
+- [JSoup](https://jsoup.org) is used to scrape the NHS page data.
+- [Circe](https://github.com/circe/circe) is used for writing JSON data.
+
 Potential Improvements
 ---
 Due to time constraints, there are some improvements that could be made to this application.
